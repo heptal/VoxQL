@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCC33C11BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c */; };
+		4CCC33C31BEFCDDE00E5DA32 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.c */; };
+		4CCC33C51BEFCDDE00E5DA32 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33C41BEFCDDE00E5DA32 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CCC33BD1BEFCDDE00E5DA32 /* VoxQL.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxQL.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		4CCC33C41BEFCDDE00E5DA32 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4CCC33C61BEFCDDE00E5DA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCC33B91BEFCDDE00E5DA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCC33B31BEFCDDE00E5DA32 = {
+			isa = PBXGroup;
+			children = (
+				4CCC33BF1BEFCDDE00E5DA32 /* VoxQL */,
+				4CCC33BE1BEFCDDE00E5DA32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCC33BE1BEFCDDE00E5DA32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC33BD1BEFCDDE00E5DA32 /* VoxQL.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCC33BF1BEFCDDE00E5DA32 /* VoxQL */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c */,
+				4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.c */,
+				4CCC33C41BEFCDDE00E5DA32 /* main.c */,
+				4CCC33C61BEFCDDE00E5DA32 /* Info.plist */,
+			);
+			path = VoxQL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CCC33BA1BEFCDDE00E5DA32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CCC33BC1BEFCDDE00E5DA32 /* VoxQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCC33C91BEFCDDE00E5DA32 /* Build configuration list for PBXNativeTarget "VoxQL" */;
+			buildPhases = (
+				4CCC33B81BEFCDDE00E5DA32 /* Sources */,
+				4CCC33B91BEFCDDE00E5DA32 /* Frameworks */,
+				4CCC33BA1BEFCDDE00E5DA32 /* Headers */,
+				4CCC33BB1BEFCDDE00E5DA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoxQL;
+			productName = VoxQL;
+			productReference = 4CCC33BD1BEFCDDE00E5DA32 /* VoxQL.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCC33B41BEFCDDE00E5DA32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = heptal;
+				TargetAttributes = {
+					4CCC33BC1BEFCDDE00E5DA32 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4CCC33B71BEFCDDE00E5DA32 /* Build configuration list for PBXProject "VoxQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CCC33B31BEFCDDE00E5DA32;
+			productRefGroup = 4CCC33BE1BEFCDDE00E5DA32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCC33BC1BEFCDDE00E5DA32 /* VoxQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCC33BB1BEFCDDE00E5DA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCC33B81BEFCDDE00E5DA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC33C11BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c in Sources */,
+				4CCC33C31BEFCDDE00E5DA32 /* GeneratePreviewForURL.c in Sources */,
+				4CCC33C51BEFCDDE00E5DA32 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CCC33C71BEFCDDE00E5DA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CCC33C81BEFCDDE00E5DA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CCC33CA1BEFCDDE00E5DA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VoxQL/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = heptal.VoxQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		4CCC33CB1BEFCDDE00E5DA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VoxQL/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = heptal.VoxQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCC33B71BEFCDDE00E5DA32 /* Build configuration list for PBXProject "VoxQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCC33C71BEFCDDE00E5DA32 /* Debug */,
+				4CCC33C81BEFCDDE00E5DA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCC33C91BEFCDDE00E5DA32 /* Build configuration list for PBXNativeTarget "VoxQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCC33CA1BEFCDDE00E5DA32 /* Debug */,
+				4CCC33CB1BEFCDDE00E5DA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCC33B41BEFCDDE00E5DA32 /* Project object */;
+}
