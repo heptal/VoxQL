@@ -3,21 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CCC33C11BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c */; };
-		4CCC33C31BEFCDDE00E5DA32 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.c */; };
+		4CCC33C11BEFCDDE00E5DA32 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.m */; };
+		4CCC33C31BEFCDDE00E5DA32 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.m */; };
 		4CCC33C51BEFCDDE00E5DA32 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33C41BEFCDDE00E5DA32 /* main.c */; };
+		4CCC33CE1BEFCE4300E5DA32 /* VoxLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33CD1BEFCE4300E5DA32 /* VoxLoader.swift */; };
+		4CCC33D01BEFCE4D00E5DA32 /* MagicaVoxelImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33CF1BEFCE4D00E5DA32 /* MagicaVoxelImport.swift */; };
+		4CCC33D21BEFCE5400E5DA32 /* NSInputStreamExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC33D11BEFCE5400E5DA32 /* NSInputStreamExtensions.swift */; };
+		4CFBDD3C1BEFD051003BE7A4 /* VoxQL.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CCC33BD1BEFCDDE00E5DA32 /* VoxQL.qlgenerator */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CCC33D31BEFCE6F00E5DA32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				4CFBDD3C1BEFD051003BE7A4 /* VoxQL.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4CCC33BD1BEFCDDE00E5DA32 /* VoxQL.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxQL.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		4CCC33C41BEFCDDE00E5DA32 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4CCC33C61BEFCDDE00E5DA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCC33CC1BEFCE4200E5DA32 /* VoxQL-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoxQL-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CCC33CD1BEFCE4300E5DA32 /* VoxLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoxLoader.swift; sourceTree = "<group>"; };
+		4CCC33CF1BEFCE4D00E5DA32 /* MagicaVoxelImport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicaVoxelImport.swift; sourceTree = "<group>"; };
+		4CCC33D11BEFCE5400E5DA32 /* NSInputStreamExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSInputStreamExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +71,14 @@
 		4CCC33BF1BEFCDDE00E5DA32 /* VoxQL */ = {
 			isa = PBXGroup;
 			children = (
-				4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c */,
-				4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.c */,
+				4CCC33C01BEFCDDE00E5DA32 /* GenerateThumbnailForURL.m */,
+				4CCC33C21BEFCDDE00E5DA32 /* GeneratePreviewForURL.m */,
+				4CCC33CD1BEFCE4300E5DA32 /* VoxLoader.swift */,
+				4CCC33CF1BEFCE4D00E5DA32 /* MagicaVoxelImport.swift */,
+				4CCC33D11BEFCE5400E5DA32 /* NSInputStreamExtensions.swift */,
 				4CCC33C41BEFCDDE00E5DA32 /* main.c */,
 				4CCC33C61BEFCDDE00E5DA32 /* Info.plist */,
+				4CCC33CC1BEFCE4200E5DA32 /* VoxQL-Bridging-Header.h */,
 			);
 			path = VoxQL;
 			sourceTree = "<group>";
@@ -79,6 +104,7 @@
 				4CCC33B91BEFCDDE00E5DA32 /* Frameworks */,
 				4CCC33BA1BEFCDDE00E5DA32 /* Headers */,
 				4CCC33BB1BEFCDDE00E5DA32 /* Resources */,
+				4CCC33D31BEFCE6F00E5DA32 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -104,7 +130,7 @@
 				};
 			};
 			buildConfigurationList = 4CCC33B71BEFCDDE00E5DA32 /* Build configuration list for PBXProject "VoxQL" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,9 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCC33C11BEFCDDE00E5DA32 /* GenerateThumbnailForURL.c in Sources */,
-				4CCC33C31BEFCDDE00E5DA32 /* GeneratePreviewForURL.c in Sources */,
+				4CCC33C11BEFCDDE00E5DA32 /* GenerateThumbnailForURL.m in Sources */,
+				4CCC33C31BEFCDDE00E5DA32 /* GeneratePreviewForURL.m in Sources */,
+				4CCC33CE1BEFCE4300E5DA32 /* VoxLoader.swift in Sources */,
 				4CCC33C51BEFCDDE00E5DA32 /* main.c in Sources */,
+				4CCC33D01BEFCE4D00E5DA32 /* MagicaVoxelImport.swift in Sources */,
+				4CCC33D21BEFCE5400E5DA32 /* NSInputStreamExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,11 +255,16 @@
 		4CCC33CA1BEFCDDE00E5DA32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VoxQL/Info.plist;
 				INSTALL_PATH = /Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = heptal.VoxQL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoxQL/VoxQL-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Debug;
@@ -238,11 +272,15 @@
 		4CCC33CB1BEFCDDE00E5DA32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VoxQL/Info.plist;
 				INSTALL_PATH = /Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = heptal.VoxQL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoxQL/VoxQL-Bridging-Header.h";
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Release;
@@ -266,6 +304,7 @@
 				4CCC33CB1BEFCDDE00E5DA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

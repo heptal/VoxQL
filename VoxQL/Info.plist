@@ -4,17 +4,21 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>CFBundleDocumentTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>QLGenerator</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>SUPPORTED_UTI_TYPE</string>
-			</array>
-		</dict>
-	</array>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>QLGenerator</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>dyn.ah62d4rv4ge81q552</string>
+            </array>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>vox</string>
+            </array>
+        </dict>
+    </array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -59,5 +63,29 @@
 	<false/>
 	<key>QLThumbnailMinimumSize</key>
 	<real>17</real>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>dyn.ah62d4rv4ge81q552</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>MagicaVoxel document</string>
+            <key>UTTypeIconFile</key>
+            <string>public.text.icns</string>
+            <key>UTTypeIdentifier</key>
+            <string>io.github.ephtracy.vox</string>
+            <key>UTTypeReferenceURL</key>
+            <string>https://ephtracy.github.io/index.html?page=mv_vox_format</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>vox</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>
