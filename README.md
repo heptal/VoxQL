@@ -7,7 +7,7 @@ Work in progress due to a known bug in [`SCNSceneSource initWithData`](https://d
 
 
 ## Installation
-If you have [Homebrew Cask](http://caskroom.io) installed:
+If you have [Homebrew Cask](http://caskroom.io) installed (awaiting pull request):
 ```bash
 $ brew update
 $ brew cask install voxql
