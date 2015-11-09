@@ -7,12 +7,22 @@ Work in progress due to a known bug in [`SCNSceneSource initWithData`](https://d
 
 
 ## Installation
-To install, either build the VoxQL target or download the [latest release](https://github.com/heptal/VoxQL/releases/download/0.1.0/VoxQL.qlgenerator.zip). Move `VoxQL.qlgenerator` into `~/Library/QuickLook/` or `/Library/QuickLook/` for all users. Reload QuickLook generators with `qlmanage -r` if necessary.
+If you have [Homebrew Cask](http://caskroom.io) installed:
+```bash
+$ brew update
+$ brew cask install voxql
+```
 
-[VoxQL.qlgenerator.zip](https://github.com/heptal/VoxQL/releases/download/0.1.0/VoxQL.qlgenerator.zip)
+To uninstall:
+```bash
+$ brew cask uninstall voxql
+```
+Otherwise, either build the VoxQL target or download the [latest release](https://github.com/heptal/VoxQL/releases/download/0.1.0/VoxQL.qlgenerator.zip). Move `VoxQL.qlgenerator` into `~/Library/QuickLook/` or `/Library/QuickLook/` for all users. To uninstall, simply delete `VoxQL.qlgenerator`.  
+
+Reload QuickLook generators with `qlmanage -r` if necessary.
 
 ## Todo
-Homebrew cask  
+~~Homebrew cask~~  
 Thumbnail generation  
 Provide scene data directly once Apple releases bugfix  
 Support more voxel file formats such as .qb?  
