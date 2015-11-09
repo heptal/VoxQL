@@ -15,3 +15,4 @@ To install, either build the VoxQL target or download the [latest release](https
 Homebrew cask  
 Thumbnail generation  
 Provide scene data directly once Apple releases bugfix
+Support more voxel file formats such as .qb?
