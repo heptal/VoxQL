@@ -7,7 +7,7 @@ Work in progress due to a known bug in [`SCNSceneSource initWithData`](https://d
 
 
 ## Installation
-If you have [Homebrew Cask](http://caskroom.io) installed (awaiting pull request):
+If you have [Homebrew Cask](http://caskroom.io) installed:
 ```bash
 $ brew update
 $ brew cask install voxql
@@ -22,7 +22,6 @@ Otherwise, either build the VoxQL target or download the [latest release](https:
 Reload QuickLook generators with `qlmanage -r` if necessary.
 
 ## Todo
-~~Homebrew cask~~  
 Thumbnail generation  
 Provide scene data directly once Apple releases bugfix  
 Support more voxel file formats such as .qb?  
